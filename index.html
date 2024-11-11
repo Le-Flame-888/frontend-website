@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <h1>Arcspace</h1>
+            </div>
+            <div class="links">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="language-selecter">
+                <select>
+                    <option value="en" selected>English</option>
+                    <option value="fr">French</option>
+                </select>
+            </div>
+        </nav>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Arcspace</h1>
+            </div>
+            <div class="hero-semi-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                     Sed in libero nec felis suscipit pharetra.<br>
+                     Donec sed neque at dolor tempus bibendum.</p>
+            </div>
+        </section>
+    </div>
+    
+    <section class="about-us">
+        <div class="about-title">
+            <h3>(02) About us</h3>
+        </div>
+        <div class="about-content">
+            <div class="content-1">
+                <h1>craft your spaces:<br>
+                    work with Arcspace architecte mastery
+                </h1>
+            </div>
+            <div class="content-2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aperiam cupiditate laboriosam vitae, incidunt illo quaerat qui quia! Qui in provident molestias quidem earum corrupti rem veritatis nostrum, nam ipsam!</p>
+                <div class="about-btn">
+                    <a href="#">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="about-numbers">
+            <div class="number-1">
+                <h1>$120M+</h1>
+                <p><span>Total Revenue</span> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="number-2">
+                <h1>25+</h1>
+                <p><span>Years of experience</span> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="number-3">
+                <h1>340+</h1>
+                <p><span>Clients satisfied</span> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="services-title">
+            <h3>(03) Services</h3>
+        </div>
+        <div class="services-content">
+            <h1>our various agency services<br> are provided for you</h1>
+        </div>
+        <div class="card-container">
+                <!-- Large Card -->
+            <div class="card card-large" onclick="toggleDetails(this)">
+                <div class="content">
+                    <h2>Design Interior specializes in creating captivating</h2>
+                    <p>Elevating Spaces with Distinctive Elegance: Interior Design Specialize in Creating Interior Masterpieces with Your Style</p>
+                    <a href="#" class="button">Detail Project</a>
+                </div>
+            </div>
+                <!-- small Card 1-->
+            <div class="card" onclick="toggleDetails(this)">
+                <div class="content">
+                    <h2>Property Interior</h2>
+                    <p class="hidden">Transforming interiors with unique styles and designs.</p>
+                </div>
+            </div>
+                <!-- Small Card 2-->
+            <div class="card" onclick="toggleDetails(this)">
+                <div class="content">
+                    <h2>Building Architect</h2>
+                    <p class="hidden">Designing modern structures that stand the test of time.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <div class="projects-title">
+            <h3>(04) Projects</h3>
+        </div>
+        <div class="projects-content">
+            <h1>recent projects<br> showcased by Arcspace architects</h1>
+        </div>
+        <div class="project-container">
+            <div class="project">
+                <div class="project-content">
+                    <div class="shown">
+                        <div class="title">
+                            <h2>yez house</h2>
+                        </div>
+                        <div class="btn">
+                            <a href="#">#view project</a>
+                            <a href="">#property</a>
+                        </div>
+                    </div>
+                    <div class="hidden">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in libero nec felis suscipit pharetra.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <div class="shown">
+                        <div class="title">
+                            <h2>ellisan</h2>
+                        </div>
+                        <div class="btn">
+                            <a href="#">#view project</a>
+                            <a href="">#property</a>
+                        </div>
+                    </div>
+                    <div class="hidden">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in libero nec felis suscipit pharetra.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <div class="shown">
+                        <div class="title">
+                            <h2>gardient</h2>
+                        </div>
+                        <div class="btn">
+                            <a href="#">#view project</a>
+                            <a href="">#property</a>
+                        </div>
+                    </div>
+                    <div class="hidden">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in libero nec felis suscipit pharetra.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <div class="shown">
+                        <div class="title">
+                            <h2>Villas</h2>
+                        </div>
+                        <div class="btn">
+                            <a href="#">#view project</a>
+                            <a href="">#property</a>
+                        </div>
+                    </div>
+                    <div class="hidden">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in libero nec felis suscipit pharetra.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-btn">
+                <a href="">see all projets</a>
+            </div>
+        </div>
+    </section>
+    <section class="popular">
+        <div class="popular-image">
+            <div class="large-image">
+                <img src="image/popular1.jpg" alt="" srcset="">
+            </div>
+            <div class="small-image">
+                <img src="image/popular2.jpg" alt="" srcset="">
+                <img src="image/popular3.jpg" alt="" srcset="">
+            </div>
+        </div>
+        <div class="about-popular">
+            <div class="popular-title">
+                <h3>(05) Popular Property</h3>
+            </div>
+            <div class="popular-content">
+                <h1>oasis coffee table new product </h1>
+            </div>
+            <div class="popular-price">
+                <h1>$200</h1>
+                <p>$250</p>
+            </div>
+            <div class="description">
+                <h2>description :</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in libero nec felis suscipit pharetra.
+                    Vestibulum id velit non est scelerisque ultricies. Sed et tellus nec neque tempor bibendum.
+                    Nulla facilisi. Sed auctor, nunc id feugiat consectetur, mauris ex lobortis velit, a faucibus lectus risus in justo.
+                </p>
+            </div>
+            <div class="colors">
+                <div class="colors-available">
+                    <h3>Available Colors</h3>
+                </div>
+                <ul>
+                    <div class="color" style="background-color: #FFB300; margin-right: 10px; cursor: pointer;"></div>
+                    <div class="color" style="background-color: #FF8C00; margin-right: 10px; cursor: pointer;"></div>
+                    <div class="color" style="background-color: #8B0000; cursor: pointer;"></div>
+                </ul>
+            </div>
+            <div class="view-product">
+                <a href="#">detail product</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-title">
+            <h1>do you have an idea about architecture ?</h1>
+        </div>
+        <div class="footer-btn">
+            <a href="#">let's talk</a>
+            <a href="#">hire us</a>
+        </div>
+        <div class="foot">
+            <div class="left-footer">
+                <div class="footer-logo">
+                    <h1>Arcspace</h1>
+                </div>
+                <div class="footer-content">
+                    <p>Lorem ipsum dolor eniam? Sint, libero
+                        veniam, quisquam, corporis, nisi ut
+                        eligendi, optio cumque nihil impedit.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                    <a href="#"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="right-footer">
+                <div class="footer-container">
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li>Architecture</li>
+                            <li>Interior</li>
+                            <li>Property</li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Pages</h3>
+                        <ul>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Services</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Support</h3>
+                        <ul>
+                            <li>Help Center</li>
+                            <li>Contact Us</li>
+                            <li>Terms of Use</li>
+                            <li>Privacy</li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Social Media</h3>
+                        <ul>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                            <li>Facebook</li>
+                            <li>LinkedIn</li>
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2022 Arcspace. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
